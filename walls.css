@@ -1,0 +1,8 @@
+@media only screen and (max-width: 600px) {
+    /* 768px is usually the width of tablets in portrait orientation */
+    /* You can use any other size you see fit */
+    
+        img {width: 40%;height: auto;}
+
+        
+    }
