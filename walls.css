@@ -1,8 +1,27 @@
+*{
+    background-color: white;
+    font-family: 'JetBrains Mono', monospace;
+    color: rgb(24,26,27);
+    
+}
+#heading{
+    text-align: center;
+    font-size: 14px;
+    font-style: bold;
+}
 @media only screen and (max-width: 600px) {
     /* 768px is usually the width of tablets in portrait orientation */
     /* You can use any other size you see fit */
-    
-        img {width: 40%;height: auto;}
-
+   
+        img {width: 60%;height: auto;}
+        .main{
+            text-align: center;
+            width: 100vw;
+            height: auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
         
     }
